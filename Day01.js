@@ -10,3 +10,7 @@ console.log(number);
 let str = "Pragati";
 console.log(str);
 
+// task 03 
+
+const bool = true;
+console.log(bool);
