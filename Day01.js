@@ -31,3 +31,10 @@ let value = 10;
 console.log(value);
 value = "ptr";
 console.log(value);
+
+// task 06
+
+const chng_val = 20;
+// chng_val = 'PT';    :: TypeError that we cannot reassign the constant variable
+console.log(chng_val);
+
