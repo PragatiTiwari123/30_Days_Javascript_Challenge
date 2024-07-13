@@ -14,3 +14,13 @@ console.log(str);
 
 const bool = true;
 console.log(bool);
+
+// task 04
+
+let num = 10;
+let str1 = "String";
+let bool1 = false;
+let obj = {};
+let arr = [];
+
+console.log(typeof(num) , typeof(str1) , typeof(bool1) , typeof(obj) , typeof(arr));
