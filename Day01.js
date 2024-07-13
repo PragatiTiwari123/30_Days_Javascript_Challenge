@@ -38,3 +38,12 @@ const chng_val = 20;
 // chng_val = 'PT';    :: TypeError that we cannot reassign the constant variable
 console.log(chng_val);
 
+// Feature Request
+
+var some_val = "Value";
+console.log(some_val);
+console.log(typeof(some_val));
+
+some_val = 2003;
+console.log(some_val);
+console.log(typeof(some_val));
