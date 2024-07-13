@@ -24,3 +24,10 @@ let obj = {};
 let arr = [];
 
 console.log(typeof(num) , typeof(str1) , typeof(bool1) , typeof(obj) , typeof(arr));
+
+// task 05
+
+let value = 10;
+console.log(value);
+value = "ptr";
+console.log(value);
