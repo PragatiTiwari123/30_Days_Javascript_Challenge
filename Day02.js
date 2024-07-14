@@ -68,3 +68,8 @@ console.log(false || false);
 
 console.log(!true);
 console.log(!false);
+
+// task 14
+
+let num5 = -10;
+console.log((num5>0) ? "positive" : "negative");
