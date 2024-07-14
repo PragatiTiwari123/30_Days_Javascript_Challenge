@@ -12,3 +12,7 @@ console.log(var2 - var1);
 // task 03
 
 console.log(var2 * var1);
+
+// task 04
+
+console.log(var2 / var1);
