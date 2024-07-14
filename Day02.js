@@ -33,6 +33,13 @@ console.log(var1);
 
 // task 08
 
-let num1 = 20, num2 = 5;
+let num1 = 20, num2 = 20, num3 = 5;
 console.log(num1>num2);
 console.log(num1<num2);
+console.log(num1>num3);
+console.log(num1<num3);
+
+// task 09
+
+console.log(num1>=num2);
+console.log(num1<=num2);
