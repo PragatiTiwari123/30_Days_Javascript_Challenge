@@ -24,4 +24,9 @@ console.log(var2 % var1);
 //task 06
 
 var1 += var2;
+console.log(var1); // var1 = 50
+
+//task 07
+
+var1 -= var2;
 console.log(var1);
