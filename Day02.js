@@ -49,3 +49,18 @@ console.log(num1<=num2);
 
 console.log(num1==num4);
 console.log(num1===num4);
+
+// task 11
+
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+console.log(!true);
+console.log(!false);
