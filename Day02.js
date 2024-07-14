@@ -64,5 +64,7 @@ console.log(true || false);
 console.log(false || true);
 console.log(false || false);
 
+// task 13
+
 console.log(!true);
 console.log(!false);
