@@ -8,3 +8,7 @@ console.log(var1+var2);
 // task 02
 
 console.log(var2 - var1);
+
+// task 03
+
+console.log(var2 * var1);
