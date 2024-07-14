@@ -30,3 +30,9 @@ console.log(var1); // var1 = 50
 
 var1 -= var2;
 console.log(var1);
+
+// task 08
+
+let num1 = 20, num2 = 5;
+console.log(num1>num2);
+console.log(num1<num2);
