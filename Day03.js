@@ -71,3 +71,23 @@ switch (day_num) {
     default:
         break;
 }
+
+// task 05 
+
+let score = 70;
+function isEligible(score){
+    switch (true) {
+        case score >=80:
+            return("Grade A");
+        case score <= 80 && score >=60:
+            return("Grade B");
+        case score <= 60 && score >=45:
+            return("Grade C");
+        case score <= 45 && score >=33:
+            return("Grade D");
+        default:
+            return("X");
+    }
+}
+let getResult = isEligible(score);
+console.log(getResult);
