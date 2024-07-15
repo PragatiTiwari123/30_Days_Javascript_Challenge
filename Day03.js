@@ -96,3 +96,14 @@ console.log(getResult);
 
 let n  = 11;
 console.log((n%2==0)?"even":"odd");
+
+// task 07
+
+let year= 2044;
+
+if(year%4==0 && (year%100!=0 || year%400==0)){
+    console.log("Leap year");
+}
+else{
+    console.log("Not a leap year");
+}
