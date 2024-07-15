@@ -91,3 +91,8 @@ function isEligible(score){
 }
 let getResult = isEligible(score);
 console.log(getResult);
+
+// task 06
+
+let n  = 11;
+console.log((n%2==0)?"even":"odd");
