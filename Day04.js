@@ -58,3 +58,11 @@ for(let i = 1;i<=4;i++){
     }
     console.log(star);
 }
+
+// task 08
+
+for(let i = 1; i<=10;i++){
+    if(i===5)
+        continue;
+    console.log(i);
+}
