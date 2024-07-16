@@ -66,3 +66,11 @@ for(let i = 1; i<=10;i++){
         continue;
     console.log(i);
 }
+
+// task 09
+
+for(let i = 1; i<=10;i++){
+    if(i===7)
+        break;
+    console.log(i);
+}
