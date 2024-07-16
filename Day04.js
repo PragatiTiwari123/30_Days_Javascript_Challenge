@@ -48,3 +48,13 @@ do{
 }while(t>=1);
 
 console.log(`Factorial of ${f} is ${fact}`);
+
+// task 07
+
+for(let i = 1;i<=4;i++){
+    let star = ''
+    for(let j = 1;j<=i;j++){
+        star += '* ';
+    }
+    console.log(star);
+}
