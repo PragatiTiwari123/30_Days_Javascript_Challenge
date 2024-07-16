@@ -37,3 +37,14 @@ do{
     console.log(num2);
     num2++;
 }while(num2<=5);
+
+// task 06
+
+let fact = 1, t=5;
+let f = t;
+do{
+  fact*=t; 
+  t--; 
+}while(t>=1);
+
+console.log(`Factorial of ${f} is ${fact}`);
