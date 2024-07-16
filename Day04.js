@@ -21,3 +21,11 @@ while(i<=10){
 }
 console.log(`The sum of 10 numbers is ${sum}`);
 
+// task 04
+
+let num1 =10;
+
+while(num1>=1){
+    console.log(num1);
+    num1--;
+}
