@@ -54,3 +54,10 @@ let CheckSpecialChar = (str) => {
     }
 }
 console.log(CheckSpecialChar("ragati?~`"));
+
+// task 07
+
+function ProductOfTwo(num1,num2 = 1){
+    return num1*num2;
+}
+console.log(ProductOfTwo(10,6));
