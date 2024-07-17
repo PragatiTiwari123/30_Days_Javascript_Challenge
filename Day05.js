@@ -35,3 +35,10 @@ function StringConcat(str1,str2){
     return `${str1} ${str2}`
 }
 console.log(StringConcat("Trust","God"));
+
+// task 05
+
+let SumOfTwo = (num1,num2) => {
+    console.log(num1+num2);
+};
+SumOfTwo(10,20);
