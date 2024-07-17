@@ -16,3 +16,15 @@ function SquareOfNum(num){
     return num*num;
 }
 console.log(SquareOfNum(5));
+
+// task 03
+
+function MaxOfTwo(num1,num2){
+    if(num1>num2){
+        console.log("First number is greater then other");
+    }
+    else{
+        console.log("Second number is greatest then first one");
+    }
+}
+MaxOfTwo(100,15);
