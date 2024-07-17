@@ -39,6 +39,18 @@ console.log(StringConcat("Trust","God"));
 // task 05
 
 let SumOfTwo = (num1,num2) => {
-    console.log(num1+num2);
+    return (num1+num2);
 };
-SumOfTwo(10,20);
+console.log(SumOfTwo(10,20));
+
+// task 06
+
+let CheckSpecialChar = (str) => {
+    for (let i = 0; i < str.length; i++) {
+        // const element = str[i];
+        if(( str.charCodeAt(i) < 65 ) || (str.charCodeAt(i) > 90 && str.charCodeAt(i) < 97) || str.charCodeAt(i) >120){
+            return ("True");
+        }
+    }
+}
+console.log(CheckSpecialChar("ragati?~`"));
