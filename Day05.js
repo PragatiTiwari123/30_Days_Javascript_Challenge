@@ -28,3 +28,10 @@ function MaxOfTwo(num1,num2){
     }
 }
 MaxOfTwo(100,15);
+
+// task 04
+
+function StringConcat(str1,str2){
+    return `${str1} ${str2}`
+}
+console.log(StringConcat("Trust","God"));
