@@ -61,3 +61,10 @@ function ProductOfTwo(num1,num2 = 1){
     return num1*num2;
 }
 console.log(ProductOfTwo(10,6));
+
+// task 08
+
+function GreetingMessage(name,age = 18){
+    return(`Hello a GoodNoon ${name}, Hope you are doing well. Your age is ${age}. `);
+}
+console.log(GreetingMessage("Hardik",10));
