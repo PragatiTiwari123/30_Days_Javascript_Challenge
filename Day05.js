@@ -9,3 +9,10 @@ function CheckEvenOdd(num){
     }
 }
 CheckEvenOdd(10);
+
+// task 02
+
+function SquareOfNum(num){
+    return num*num;
+}
+console.log(SquareOfNum(5));
