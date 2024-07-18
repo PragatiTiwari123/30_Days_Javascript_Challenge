@@ -1,9 +1,13 @@
 // task 01
 
 let arr = [1,2,34,5,6];
-arr.forEach(element => {
-    console.log(element);
-});
+printArray(arr);
+
+function printArray(arr){
+    arr.forEach(element => {
+        console.log(element);
+    });
+}
 
 // task 02
 
@@ -14,3 +18,9 @@ for (let i = 0; i < arr1.length; i++) {
     }
     
 }
+
+// task 03
+
+arr.push(200);
+console.log("Updated Array Elements are : ");
+printArray(arr);
