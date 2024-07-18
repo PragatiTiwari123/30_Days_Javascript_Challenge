@@ -30,3 +30,9 @@ printArray(arr);
 arr.pop();
 console.log("Updated Array Elements are : ");
 printArray(arr);
+
+// task 05
+
+arr.shift();
+console.log("Updated Array Elements are : ");
+printArray(arr);
