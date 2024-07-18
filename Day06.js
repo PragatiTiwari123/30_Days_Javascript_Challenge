@@ -36,3 +36,9 @@ printArray(arr);
 arr.shift();
 console.log("Updated Array Elements are : ");
 printArray(arr);
+
+// task 06
+
+arr.unshift(100);
+console.log("Updated Array Elements are : ");
+printArray(arr);
