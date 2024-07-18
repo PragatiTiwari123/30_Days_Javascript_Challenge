@@ -24,3 +24,9 @@ for (let i = 0; i < arr1.length; i++) {
 arr.push(200);
 console.log("Updated Array Elements are : ");
 printArray(arr);
+
+// task 04
+
+arr.pop();
+console.log("Updated Array Elements are : ");
+printArray(arr);
