@@ -81,3 +81,18 @@ function newFun(){
     console.log("Chai Aur code");
 }
 callFunction(newFun,5);
+
+// task 10
+
+function HOFunction(first_func,second_func,val){
+    res = first_func(val);
+    second_func(res);
+}
+function first_func(num){
+    let res = num*num;
+    return res;
+}
+function second_func(num2){
+    console.log(num2);
+}
+HOFunction(first_func,second_func,5)
