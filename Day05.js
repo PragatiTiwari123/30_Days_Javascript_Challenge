@@ -68,3 +68,16 @@ function GreetingMessage(name,age = 18){
     return(`Hello a GoodNoon ${name}, Hope you are doing well. Your age is ${age}. `);
 }
 console.log(GreetingMessage("Hardik",10));
+
+// task 09
+
+const callFunction = function(called_func,times){
+    for (let i = 1; i <= times; i++) {
+        called_func();
+        
+    }
+}
+function newFun(){
+    console.log("Chai Aur code");
+}
+callFunction(newFun,5);
