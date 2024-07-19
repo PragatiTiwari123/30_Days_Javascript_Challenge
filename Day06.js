@@ -42,3 +42,6 @@ printArray(arr);
 arr.unshift(100);
 console.log("Updated Array Elements are : ");
 printArray(arr);
+
+// task 07
+
