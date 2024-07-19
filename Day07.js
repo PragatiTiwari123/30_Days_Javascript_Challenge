@@ -3,7 +3,10 @@
 let book = {
     title : "Harry Potter" ,
     author : "J. K. Rowling" ,
-    year : 2024
+    year : 2024 ,
+    changeYear : function (newYear) {
+        this.year = newYear;
+    }
 }
 console.log(book);
 
@@ -11,3 +14,8 @@ console.log(book);
 
 console.log(`Author : ${book.author}`);
 console.log(`Title : ${book.title}`);
+
+// task 03
+
+book.changeYear(2003);
+console.log(book);
