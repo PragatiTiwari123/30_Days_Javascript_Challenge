@@ -6,6 +6,13 @@ let book = {
     year : 2024 ,
     changeYear : function (newYear) {
         this.year = newYear;
+    },
+    printtitle : function(){
+        // console.log(`Title of the book : ${this.title} \n Author of the book : ${this.author} `);
+        return (this.title);
+    },
+    printAuthor : function(){
+        return (this.author);
     }
 }
 console.log(book);
@@ -19,3 +26,7 @@ console.log(`Title : ${book.title}`);
 
 book.changeYear(2003);
 console.log(book);
+
+// task 04
+
+console.log(`Title of the book : ${book.printtitle()} \nAuthor of the book : ${book.printAuthor()} `);
