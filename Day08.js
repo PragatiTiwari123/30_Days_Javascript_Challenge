@@ -58,3 +58,11 @@ function sumVal(...arg) {
 
 console.log(sumVal(1,2,3,4,5));
 // console.log(sumValUsingReduce(1,2,3,4,5,5));
+
+//task 07
+
+function product(firstVal , secondVal = 1){
+    return firstVal*secondVal;
+}
+console.log(product(10,20));
+console.log(product(30));
