@@ -40,9 +40,16 @@ let library = {
         author : "J. K. Rowling" ,
         year : 2024 
     },{
-        title : "Harry Potter" ,
+        title : "Harry" ,
         author : "J. K. Rowling" ,
         year : 2024 
     }]
 }
 console.log(library);
+
+// task 06
+
+console.log(library.name);
+library.books.forEach(element => {
+    console.log(element.title);
+});
