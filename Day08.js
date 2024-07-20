@@ -9,3 +9,11 @@ let string = `Hello jii
 Welcome to chai aur code 
 Kaise hai ap log`;
 console.log(string);
+
+// task 03
+
+// Destructuring an array
+
+let arr = [1,2,3,4,5,6];
+let [firstVal , secondVal] = arr;
+console.log(firstVal,secondVal);
