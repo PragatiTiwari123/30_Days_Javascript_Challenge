@@ -29,3 +29,9 @@ const book = {
 }
 const {title , author} = book
 console.log(`Title of the book : ${title} \nAuthor of this book : ${author}`);
+
+// task 05
+
+let Arr = [1,2,3,4];
+let newArr = [...Arr,6,7];
+console.log(newArr);
