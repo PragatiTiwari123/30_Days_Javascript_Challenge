@@ -64,3 +64,10 @@ for (let keys in book) {
 
 console.log(Object.keys(book));
 console.log(Object.values(book));
+
+// task 09
+
+// adding method to return the title and author using this keyword nd log the calling this method values
+
+console.log(`Author : ${book.author}`);
+console.log(`Title : ${book.title}`);
