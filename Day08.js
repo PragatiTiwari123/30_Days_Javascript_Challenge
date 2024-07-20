@@ -35,3 +35,26 @@ console.log(`Title of the book : ${title} \nAuthor of this book : ${author}`);
 let Arr = [1,2,3,4];
 let newArr = [...Arr,6,7];
 console.log(newArr);
+
+// task 06
+
+function sumVal(...arg) {
+    sum = 0;
+    arg.forEach(element => {
+        sum += element;
+    });
+    return sum;
+}
+
+// using reduce function
+
+// function sumValUsingReduce(...arg){
+//     arg.reduce(function name(acc,curr) {
+//         acc += curr;
+//         return acc;
+//     },0)
+    
+// }
+
+console.log(sumVal(1,2,3,4,5));
+// console.log(sumValUsingReduce(1,2,3,4,5,5));
