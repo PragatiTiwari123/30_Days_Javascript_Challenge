@@ -59,3 +59,8 @@ library.books.forEach(element => {
 for (let keys in book) {
     console.log(`Property of the book : ${keys} \nValue of that property : ${book[keys]}`);
 }
+
+//task 08
+
+console.log(Object.keys(book));
+console.log(Object.values(book));
