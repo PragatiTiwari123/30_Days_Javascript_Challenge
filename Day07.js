@@ -30,3 +30,19 @@ console.log(book);
 // task 04
 
 console.log(`Title of the book : ${book.printtitle()} \nAuthor of the book : ${book.printAuthor()} `);
+
+// task 05
+
+let library = {
+    name : "Pushtakalaya",
+    books : [{
+        title : "Harry Potter" ,
+        author : "J. K. Rowling" ,
+        year : 2024 
+    },{
+        title : "Harry Potter" ,
+        author : "J. K. Rowling" ,
+        year : 2024 
+    }]
+}
+console.log(library);
