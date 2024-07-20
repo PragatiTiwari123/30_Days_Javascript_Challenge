@@ -76,3 +76,13 @@ objLit.method = function name(params) {
     console.log(1+2);
 }
 console.log(objLit);
+
+// task 09
+
+let key1 = "Key1", key2 = "Key2" , val1 = "Value1" , val2 = "Value2"
+
+let newObj = {
+    [key1] : val1,
+    [key2] : val2
+}
+console.log(newObj);
