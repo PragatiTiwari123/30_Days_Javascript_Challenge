@@ -66,3 +66,13 @@ function product(firstVal , secondVal = 1){
 }
 console.log(product(10,20));
 console.log(product(30));
+
+// task 08
+
+let objLit = new Object();
+
+objLit.val = "Kanha Jii"
+objLit.method = function name(params) {
+    console.log(1+2);
+}
+console.log(objLit);
