@@ -17,3 +17,15 @@ console.log(string);
 let arr = [1,2,3,4,5,6];
 let [firstVal , secondVal] = arr;
 console.log(firstVal,secondVal);
+
+// task 04
+
+// Destructuring an object
+
+const book = {
+    title : 'Any title',
+    author : 'Ay',
+    year : 2003
+}
+const {title , author} = book
+console.log(`Title of the book : ${title} \nAuthor of this book : ${author}`);
